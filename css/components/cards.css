@@ -1,0 +1,40 @@
+.container {
+  padding: 20px
+}
+
+.card {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  margin: 10px;
+  height: 280px;
+  width: 300px;
+  flex-direction: column;
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  text-align: flex-end;
+  flex-direction: column;
+}
+
+.card-content h3 {
+  padding: 5px;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.card-content p {
+  margin: 0px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.cards {
+  display: flex;
+  display: line;
+}

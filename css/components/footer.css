@@ -1,0 +1,25 @@
+.footer {
+  background-color: #F8603A;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+​  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer a {
+  font-size: 13px;
+  color: white;
+  padding: 5px;
+}
+
+.footer > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+​
+.footer li {
+  margin: 0px;
+}
